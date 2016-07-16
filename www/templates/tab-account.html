@@ -1,0 +1,22 @@
+<ion-view view-title="Options">
+  <ion-content>
+    <div class="list">
+  
+    <label class="item item-input item-select">
+      <div class="input-label">
+        TV
+      </div>
+      <select ng-model="config.tv">
+        <option selected>HD1</option>
+        <option>HD2</option>
+      </select>
+    </label>
+    <label class="item item-input">
+      <input type="text" placeholder="Remote code" ng-model="config.code">
+    </label>
+    <button class="button button-block button-positive" ng-click="save()">
+      Save
+    </button>
+  </div>
+  </ion-content>
+</ion-view>

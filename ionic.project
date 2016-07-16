@@ -1,0 +1,5 @@
+{
+  "name": "fbx-remote",
+  "app_id": "",
+  "gulpStartupTasks": ["sass", "watch"]
+}
